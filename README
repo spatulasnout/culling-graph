@@ -8,6 +8,11 @@ It renders stats to an HTML file in %TEMP%, then opens
 that file for viewing using the default web browser.
 
 
+SOURCE:
+
+https://github.com/spatulasnout/culling-graph
+
+
 LICENSE:
 
 3-Clause BSD
