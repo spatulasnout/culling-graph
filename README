@@ -1,0 +1,23 @@
+Quick'n'dirty logfile parser and match damage grapher for The Culling
+
+
+This utility reads the logfile for The Culling at:
+  %LOCALAPPDATA%/Victory/Saved/Logs/Victory.log
+
+It renders stats to an HTML file in %TEMP%, then opens
+that file for viewing using the default web browser.
+
+
+LICENSE:
+
+3-Clause BSD
+
+
+BINARIES:
+
+Latest binary build for win32 at:
+
+http://cila-search.net/~billk/software/utilities/culling-graph/
+
+(Binary build packaged using: https://github.com/larsch/ocra )
+
