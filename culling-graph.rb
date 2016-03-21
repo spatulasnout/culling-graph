@@ -517,7 +517,7 @@ begin
 
   (stats.matches.empty?) and raise("Sorry, no match data found in The Culling logfile.")
   
-  tmpdir = ((tmp = ENV['TEMP'].to_s).empty?) ? (ENV['TEMP']) : tmp
+  tmpdir = ((tmp = ENV['TMP'].to_s).empty?) ? (ENV['TEMP']) : tmp
   tmpdir = tmpdir.tr("\\", "/")
   tstamp = parser.last_tstamp.strftime("%Y-%m-%d-%H-%M-%S")
 
