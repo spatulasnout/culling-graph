@@ -26,3 +26,23 @@ http://cila-search.net/~billk/software/utilities/culling-graph/
 
 (Binary build packaged using: https://github.com/larsch/ocra )
 
+
+INSTALLING FROM SOURCE:
+
+ - Install the Ruby interpreter for Windows, e.g. via: http://rubyinstaller.org/
+
+ - Clone the git repo, or manually download the program file via:
+
+   https://raw.githubusercontent.com/spatulasnout/culling-graph/master/culling-graph.rb
+
+ - Should be able to double-click on "culling-graph.rb", wherever you saved
+   the file.
+
+
+TODO:
+
+ - The 'total' column values would probably be more useful if
+   tracked player vs. player, instead of showing running totals for
+   the whole match.  (Maybe the final totals for the whole match 
+   could be footnotes.)
+
